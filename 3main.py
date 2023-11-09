@@ -1,0 +1,6 @@
+symbol = input("Введіть символ: ")
+print(symbol + " " + " " + symbol)
+print(symbol + " " + " " + symbol)
+print(symbol * 4)
+print(symbol + " " + " " + symbol)
+print(symbol + " " + " " + symbol)
