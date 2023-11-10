@@ -1,6 +1,6 @@
+a = int(input("Введіть перше ціле число (1-1000): "))
+b = int(input("Введіть друге ціле число (1-1000): "))
 
-# Online Python - IDE, Editor, Compiler, Interpreter
-a = int(input("Введіть число a: "))
-b = int(input("Введіть число b: "))
-result = a * (a // b) + b * (b // a)
-print(result)
+result = (a > b) * a + (b > a) * b
+
+print("Найбільше число: ", result)
